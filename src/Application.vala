@@ -42,11 +42,11 @@ public class DesktopFolderApp : Gtk.Application {
         this.flags          = ApplicationFlags.FLAGS_NONE;
 
         /* Needed by Granite.Application */
-        /*
-           this.program_name = _(DesktopFolder.APP_TITLE);
-           this.exec_name = DesktopFolder.APP_NAME;
-           this.build_version = DesktopFolder.VERSION;
-         */
+        
+       //    this.program_name = _(DesktopFolder.APP_TITLE);
+       //    this.exec_name = DesktopFolder.APP_NAME;
+       //    this.build_version = DesktopFolder.VERSION;
+
     }
 
     /**
